@@ -1,0 +1,38 @@
+{
+  "name": "generator-pb-lua",
+  "version": "1.0.0",
+  "description": "Pandorabox Module Project Cli",
+  "author": {
+    "name": "Arylo",
+    "email": "arylo.open@gmail.com",
+    "url": "arylo.me"
+  },
+  "repository": "Arylo/generator-pb-lua",
+  "files": [
+    "generators"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "moment": "^2.12.0",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "pandorabox",
+    "luci",
+    "openwrt",
+    "lua"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
